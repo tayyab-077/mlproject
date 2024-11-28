@@ -18,6 +18,20 @@ body {
     text-align: center;
 }
 
+
+.login .large-text h2 {
+    font-size: 26px; /* Adjust size as needed */
+    color: #2e82d5; /* Optional: Change color */
+    text-align: center; /* Optional: Center the text */
+    font-weight: bold; /* Optional: Make it bold */
+}
+
+.login .large-text h2:hover {
+    color: #333435; /* Optional: Change color on hover */
+    text-decoration: underline; /* Optional: Add underline on hover */
+}
+
+
 /* Form headers and labels */
 h1, h2 {
     color: #444;
@@ -34,6 +48,8 @@ label {
     font-size: 14px;
     text-align: left;
 }
+
+
 
 /* Input fields and select boxes */
 .form-control {
@@ -68,3 +84,4 @@ label {
         padding: 15px;
     }
 }
+
